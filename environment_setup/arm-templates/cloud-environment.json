@@ -43,8 +43,7 @@
       "defaultValue": "[concat(parameters('baseName'),'-AML-AI')]"
     },
     "acr": {
-      "type": "string",
-      "defaultValue": "[concat(toLower(parameters('baseName')),'amlcr')]"
+      "type": "string"
     },
     "sku": {
       "type": "string",
